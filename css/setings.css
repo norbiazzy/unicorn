@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "f-regular", sans-serif;
+    font-size: 16px;
+    color: #212121;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+button {    
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-family: "f-serif", sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 2px;
+    
+    margin-bottom: 35px;
+}

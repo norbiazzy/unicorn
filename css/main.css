@@ -1,0 +1,243 @@
+@import url("./reset.css");
+@import url("./fonts.css");
+@import url("./setings.css");
+
+
+.wr-preview {
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../media/background_tree/bg_tree@1x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.header .logo {
+    font-family: "f-bold", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #212121;
+}
+.nav-container {
+    display: flex;
+
+}
+.nav ul {
+    display: flex;
+}
+.nav li {
+    margin-left: 22px;
+}
+.nav a {
+    font-family: "f-bold", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #212121;
+}
+.btn-menu {
+    display: flex;    
+    margin-right: 1px;
+    margin-left: 21px;
+}
+
+
+.line {
+    width: 40px;
+    border: 2px solid #212121;
+}
+
+.text-banner {
+    font-family: "f-black", sans-serif;
+    font-size: 72px;
+}
+
+/* intro */
+.wr-intro {
+    padding-bottom: 18vh;
+    display: flex;
+    flex-grow: 1;
+}
+.wr-intro .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.wr-intro h2 {
+    margin-bottom: 17px;
+    font-family: "f-black";
+    font-size: 72px;
+    color: #212121;
+    text-transform: uppercase;
+}
+.wr-intro span {
+    height: 4px;
+    width: 138px;
+    margin-bottom: 35px;
+    background-color: #232323;
+}
+.wr-intro p {
+    max-width: 570px;
+    margin-bottom: 51px;
+    font-size: 18px;
+    text-align: right;
+    line-height: 1.9;
+}
+.wr-intro button {
+    width: 272px;
+    height: 50px;
+    font-family: "f-semibold", sans-serif;
+    border: 2px solid #232323;
+}
+
+/* about */
+.wr-about {
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+.wr-about .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.wr-about img {
+    height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 19px;
+}
+.wr-about h3 {
+    margin-bottom: 67px;
+}
+.wr-about p {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 2.1;
+    
+}
+
+/* servises */
+.wr-services {
+    padding-top: 78px;    
+    padding-bottom: 106px;
+    width: 100%;
+    background-color: #efefef;
+}
+.wr-services .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.wr-services .sevices-item {
+    max-width: 24%;
+}
+.sevices-item img {
+    height: 36px;
+    margin-right: auto;   
+    margin-bottom: 27px;
+}
+.sevices-item h4 {
+    margin-bottom: 29px;
+    font-family: "f-samibold", sans-serif;
+    font-size: 18px; 
+}
+.sevices-item p {
+    line-height: 1.65;
+}
+
+/* wr-cards */
+.wr-cards {
+    padding-top: 106px;
+    padding-bottom: 140px;
+}
+.cards-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wr-cards .cards-item {
+    width: 31.5%;
+    padding-left: 40px;
+    padding-top: 65px;
+    padding-right: 40px;
+    padding-bottom: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 368px;
+    background-color: #222222;
+    color: #eee;
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.section-text {    
+    max-width: 770px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 102px;
+    text-align: center;
+    line-height: 2;
+}
+.cards-text h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+.cards-text p {
+    line-height: 1.4;
+    text-align: left;
+    letter-spacing: 1.7px;
+    font-size: 24px;
+}
+.cards-surname img {
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 50%;
+    float: left;
+}
+.cards-surname p {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 24px;
+    padding-top: 6px;
+}
+.wr-cards .cards-surname {
+    max-width: 230px;
+    font-family: "f-semibold", sans-serif;
+    letter-spacing: 1.2px;
+}
+.wr-cards .cards-item::before {
+    content: "";
+    width: 75px;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    background-color: red;
+    z-index: 1;
+    opacity: 1;
+}
+.wr-cards .cards-item::before {
+    content: "";
+    width: 75px;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    background-color: red;
+    z-index: 1;
+    /* opacity: 0; */
+}
