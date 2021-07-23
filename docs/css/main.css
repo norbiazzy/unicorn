@@ -13898,6 +13898,29 @@ button {
   }
 }
 
+@media all and (max-width: 576px) {
+  .preview__title {
+    font-size: 40px;
+  }
+
+  .navbar__wrapper {
+    margin-bottom: 30vh;
+  }
+
+  .preview__text {
+    text-shadow: 1px 0 #000;
+  }
+
+  .servises__item {
+    text-align: center;
+  }
+
+  .servises__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;

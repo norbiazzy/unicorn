@@ -72,6 +72,17 @@ new Swiper('.posts__sldier', {
     spaceBetween: 20,
     slideClass: 'posts__slide',
     loop: true,
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        600: {
+            slidesPerView: 2,
+        },
+        992: {
+            slidesPerView: 3,
+        },
+    }
     // pagination: {
     //     el: '.portfolio__pagination',
     //     clicable: true,
