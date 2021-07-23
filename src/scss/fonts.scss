@@ -1,0 +1,40 @@
+@font-face {
+
+    font-family: "f-black";
+    src: url("../fonts/sourcesanspro-black-webfont.woff") format("woff"), 
+         url("../fonts/sourcesanspro-black-webfont.woff2") format("woff2");
+    /* font-family: "Source Sans Pro", sans-serif; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "f-bold";
+    src: url("../fonts/sourcesanspro-bold-webfont.woff") format("woff"), 
+         url("../fonts/sourcesanspro-bold-webfont.woff2") format("woff2");
+    /* font-family: "Source Sans Pro", sans-serif; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "f-regular";
+    src: url("../fonts/sourcesanspro-regular-webfont.woff") format("woff"), 
+         url("../fonts/sourcesanspro-regular-webfont.woff2") format("woff2");
+    /* font-family: "Source Sans Pro", sans-serif; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "f-semibold";
+    src: url("../fonts/sourcesanspro-semibold-webfont.woff") format("woff"), 
+         url("../fonts/sourcesanspro-semibold-webfont.woff2") format("woff2");
+    /* font-family: "Source Sans Pro", sans-serif; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "f-italic";
+    src: url("../fonts/SourceSansPro-Italic.woff") format("woff"), 
+         url("../fonts/sourcesanspro-Italic.woff2") format("woff2");
+    /* font-family: "Source Sans Pro", sans-serif; */
+    font-display: swap;
+}

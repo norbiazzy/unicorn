@@ -1,0 +1,97 @@
+    a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+// ol, ul {
+//     margin: 0;
+//     padding: 0;
+// }
+.f-black {
+    font-family: "f-black", sans-serif;
+}
+.f-bold {
+    font-family: "f-bold", sans-serif;
+}
+.f-regular {
+    font-family: "f-regular", sans-serif;
+}
+.f-semibold {
+    font-family: "f-semibold", sans-serif;
+}
+
+
+
+
+
+body {
+    font-family: "f-regular", sans-serif;
+    font-size: 16px;
+    color: #212121;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+button {    
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+@media all and (min-width: 1400px) {
+    .wrapper {
+        max-width: 1320px;
+    }
+}
+@media all and (min-width: 1200px) {
+    .wrapper {
+        max-width: 1200px;
+    }    
+}
+@media all and (min-width: 992px) {
+    .wrapper {
+        max-width: 992px;
+    }    
+}
+@media all and (min-width: 768px) {
+    .wrapper {
+        max-width: 768px;
+    }    
+}
+@media all and (min-width: 576px) {
+    .wrapper {
+        max-width: 576px;
+    }    
+}
+
+.heading {
+    &__img {
+        width: 39px;
+        height: 39px;
+    }
+    &__title {
+        font-family: "f-bold", sans-serif;
+        font-size: 24px;
+        text-transform: capitalize;
+        text-align: center;
+        letter-spacing: 2px;    
+        margin-bottom: 35px;
+        &_white {
+            color: #eeee;
+        }
+    }
+    &__text {
+        margin-bottom: 0;
+    }
+}
