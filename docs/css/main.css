@@ -7770,12 +7770,12 @@ button {
   font-family: "f-semibold", sans-serif;
 }
 
+.preview__btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .nav-link,
-.nav-link:hover,
-.nav-link:focus,
-.navbar-brand,
-.navbar-brand:hover,
-.navbar-brand:focus {
+.navbar-brand {
   color: #212121;
 }
 
@@ -7790,7 +7790,7 @@ button {
 }
 
 .navbar__wrapper {
-  margin-bottom: 35vh;
+  margin-bottom: 20%;
 }
 
 .intro,
@@ -7820,6 +7820,14 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.team__inner {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team__item {
@@ -7870,14 +7878,15 @@ button {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+  z-index: 5;
 }
 
 .team__next {
-  right: -5%;
+  right: -45px;
 }
 
 .team__prev {
-  left: -4%;
+  left: -45px;
 }
 
 .team .swiper-slide-active::before {
@@ -7932,11 +7941,11 @@ button {
 }
 
 .clients__prev {
-  left: -20px;
+  left: -30px;
 }
 
 .clients__next {
-  right: -20px;
+  right: -30px;
 }
 
 .portfolio {
@@ -7946,6 +7955,16 @@ button {
 
 .portfolio__wrapper {
   position: relative;
+}
+
+.portfolio__filter {
+  padding-left: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portfolio__btn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .portfolio__slide {
@@ -8070,8 +8089,12 @@ button {
 
 .posts-btn {
   position: relative;
-  padding: 10px 0 10px 20px;
+  padding: 10px 10px 10px 20px;
   text-align: left;
+}
+
+.posts-btn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .posts-btn__title {
@@ -8107,6 +8130,26 @@ button {
   font-family: "f-bold", sans-serif;
 }
 
+.posts__prev,
+.posts__next {
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 15px;
+  height: 25px;
+}
+
+.posts__prev {
+  left: -30px;
+}
+
+.posts__next {
+  right: -30px;
+}
+
 .hidden {
   display: none;
 }
@@ -8135,6 +8178,10 @@ button {
 
 .form__submit {
   border: none;
+}
+
+.form__submit:hover {
+  color: #0d6efd;
 }
 
 .footer {
@@ -13899,25 +13946,16 @@ button {
 }
 
 @media all and (max-width: 576px) {
+  .navbar__wrapper {
+    margin-bottom: 50px;
+  }
+
   .preview__title {
     font-size: 40px;
   }
 
-  .navbar__wrapper {
-    margin-bottom: 30vh;
-  }
-
   .preview__text {
     text-shadow: 1px 0 #000;
-  }
-
-  .servises__item {
-    text-align: center;
-  }
-
-  .servises__img {
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 

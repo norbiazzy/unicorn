@@ -45,10 +45,19 @@
         border: 2px solid black;
         font-size: 18px;
         font-family: "f-semibold", sans-serif;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
     }
 }
-.nav-link, .nav-link:hover, .nav-link:focus, .navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
+.nav-link, .navbar-brand {
     color: #212121;
+}
+.nav-link { 
+    
+    &:hover {
+        // color: #999;
+    }
 }
 .navbar-toggler:focus {
     box-shadow: none;
@@ -58,7 +67,7 @@
     height: 15px;
 }
 .navbar__wrapper {
-    margin-bottom: 35vh;
+    margin-bottom: 20%;
 }
 
 .intro, .team {
@@ -70,7 +79,7 @@
     background-color: #efefef;
     padding: 100px 0;
     &__item {
-        
+
     }
     &__img {
         height: 34px;
@@ -96,6 +105,11 @@
         }
     }
     &__slide {
+    }
+    &__inner {
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     &__item {        
@@ -139,12 +153,13 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        z-index: 5;
     }
     &__next {
-        right: -5%;
+        right: -45px;
     }
     &__prev {
-        left: -4%;
+        left: -45px;
     }
     .swiper-slide-active::before {
         content: "";
@@ -176,6 +191,7 @@
 .clients {
     padding: 100px 0;
     background-color: #efefef;
+    
     &__slider {
 
     }
@@ -201,10 +217,10 @@
         height: 25px;
     }
     &__prev {
-        left: -20px;
+        left: -30px;
     }
     &__next {
-        right: -20px;
+        right: -30px;
     }
 }
 
@@ -214,6 +230,15 @@
     padding-bottom: 100px;
     &__wrapper {
         position: relative;
+    }
+    &__filter {
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+    &__btn {
+        &:hover {
+            background-color:rgba(0, 0, 0, .3);
+        }
     }
     &__slider {
 
@@ -334,8 +359,11 @@
     }
     &-btn {
         position: relative;
-        padding: 10px 0 10px 20px;
+        padding: 10px 10px 10px 20px;
         text-align: left;
+        &:hover {
+            background-color: rgba(0, 0, 0, .3);
+        }
         &__title {
         font-family: "f-semibold", sans-serif;
         font-size: 18px;
@@ -366,6 +394,20 @@
     }
     &__subtitle {
         font-family: "f-bold", sans-serif;
+    }
+    &__prev, &__next {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 15px;
+        height: 25px;
+    }
+    &__prev {
+        left: -30px;
+    }
+    &__next {
+        right: -30px;
     }
 }
 .hidden {
@@ -405,6 +447,9 @@
     }
     &__submit {
         border: none;
+        &:hover {
+            color: #0d6efd;
+        }
     }
 }
 .footer {

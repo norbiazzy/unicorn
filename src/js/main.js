@@ -72,6 +72,10 @@ new Swiper('.posts__sldier', {
     spaceBetween: 20,
     slideClass: 'posts__slide',
     loop: true,
+    navigation: {
+        nextEl: '.posts__next',
+        prevEl: '.posts__prev',
+      },
     breakpoints: {
         0: {
             slidesPerView: 1,
