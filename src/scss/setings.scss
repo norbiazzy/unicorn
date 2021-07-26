@@ -22,7 +22,9 @@ li {
 .f-semibold {
     font-family: "f-semibold", sans-serif;
 }
-
+:hover {
+    transition: .3s;
+}
 
 
 
@@ -83,6 +85,14 @@ button {
     }
     .preview__text {
         text-shadow: 1px 0 #000;
+    }
+    .posts {
+        &__prev {
+            left: 10px;
+        }
+    }
+    .team__prev, .team__next, .clients__prev, .clients__next, .posts__prev, .posts__next {
+        display: none;
     }
 }
 

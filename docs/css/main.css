@@ -7679,6 +7679,12 @@ li {
   font-family: "f-semibold", sans-serif;
 }
 
+:hover {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
 body {
   font-family: "f-regular", sans-serif;
   font-size: 16px;
@@ -13956,6 +13962,19 @@ button {
 
   .preview__text {
     text-shadow: 1px 0 #000;
+  }
+
+  .posts__prev {
+    left: 10px;
+  }
+
+  .team__prev,
+  .team__next,
+  .clients__prev,
+  .clients__next,
+  .posts__prev,
+  .posts__next {
+    display: none;
   }
 }
 
